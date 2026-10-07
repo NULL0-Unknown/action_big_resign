@@ -7,7 +7,6 @@ mkdir output
 cp main/avbctl/avbctl vbmeta/
 chmod +x vbmeta/avbctl
 mv work/vbmeta* vbmeta/keys/vbmeta.img
-7zz x -y -bd -oboot/zzz/ magisk.apk || [ "$?" -eq 1 ]
 mv main/boot_patch.sh boot/
 mv main/sign_avb.sh vbmeta/
 git clone https://github.com/TomKing062/vendor_sprd_proprietories-source_packimage.git
