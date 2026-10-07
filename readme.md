@@ -1,3 +1,5 @@
+## Note from NULL0-Unknown (I'm just a Grade 8 student, so my Englist is a bit bad): I just deleted Magisk from all scripts, because I want to use APatch but Magisk can't get along with APatch. So I removed Magisk, and this script will be just for resign.
+
 ## noavb(v2/v3)
 
 |                                               | android 9                                                    | android 10(+)                                                |
