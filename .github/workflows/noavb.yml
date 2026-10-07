@@ -17,7 +17,10 @@ on:
         description: 'anti-rollback version (trusted_version) for BSP signing'
         required: false
         default: '0'
-
+        
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
